@@ -1,0 +1,18 @@
+header{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    .logo{
+        display: flex;
+        justify-content: center;
+        padding: 10px 0;
+      a{
+
+       img{
+         color: white;
+       }
+    }
+    }
+}

@@ -1,0 +1,75 @@
+.our_prooducts{
+   
+    .product_list{
+                ul{
+                    display: flex;
+                    gap: 30px;
+                    margin: 0;
+                    list-style: none;
+                    padding: 0 15px;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    @media only screen and (max-width: 1024px){
+                        gap: 0px;
+                        padding: 0px;
+                    }
+                    li{
+                        @media only screen and (max-width: 1024px){
+                            width:50%;
+                            padding: 8px;
+                            border-top:1px solid #DFDEDB ;
+                            &:nth-child(odd){
+                                border-right: 1px solid #DFDEDB;
+                            }
+                         }
+                    .product_detals{
+                        display: flex;
+                        justify-content: space-between;
+                        @media only screen and (max-width: 1024px){
+                            font-size: 12px;
+                            line-height: 14px;
+                            flex-direction: column;
+                        }
+                         
+                    }
+                
+                }
+                } 
+                    
+                    .product_title{
+                        font-weight: 400;
+                        font-size: 12px;
+                        cursor: pointer;
+                       
+                    }
+                    figure{
+                        img{
+                            align-items: center;
+                            @media only screen and (max-width: 1024px){
+                                width: 100%;
+                                height: 200px;
+                            }
+                        }
+                    }
+                }.shopall{
+        margin-top: 24px;
+        margin-bottom: 24px;
+        @media only screen and (max-width: 1024px){
+           margin-top: 0px;
+           margin-bottom: 0px;
+        }
+       
+        a{
+         display: block;
+         font-size: 12px;
+         text-decoration: none;
+         color:$main;
+         text-transform: capitalize;
+         text-align: center;
+         border: 1px solid #DFDEDB;
+         padding: 24px 0;
+         
+        }
+    }
+    }
+    

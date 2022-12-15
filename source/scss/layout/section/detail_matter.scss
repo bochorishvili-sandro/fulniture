@@ -1,0 +1,71 @@
+section.detail_matter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 740px;
+    padding-bottom:111px;
+    figure{
+     position: absolute;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+        img{
+          width: 100%;
+          height: 665px;
+          object-fit: cover;
+          @media only screen and (max-width: 1024px){
+            width: 100%;
+            height: 665px;
+            left: 0px;
+        }
+        }
+    }
+}
+.detail_matter_title{
+  @media only screen and (max-width: 1024px){
+    display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 36px;
+  width: 100%;
+}
+  
+
+       .detail_matter_h1{
+        font-weight: 400;
+        font-size: 72px;
+        line-height: 100%;
+        text-align: center;
+        color: $textminicolor;
+        margin-bottom: 36px;
+        cursor: pointer;
+       }
+       .detail_matter_h4{
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 14px;
+        text-align: center;
+        margin-bottom: 36px;
+        cursor: pointer;
+       }
+       .detail_matter_text{
+        font-weight: 400;
+        width: 506px;
+        font-size: 15px;
+        line-height: 19px;
+        text-align: center;
+        cursor: pointer;
+        @media only screen and (max-width: 1024px){
+          font-family: 'Neue Montreal';
+          font-style: normal;
+          font-weight: 400;
+          font-size: 15px;
+          line-height: 19px;
+          text-align: center;
+          width: 100%;
+      }
+  
+       }
+    }

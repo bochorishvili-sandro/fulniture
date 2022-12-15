@@ -1,0 +1,53 @@
+section.about_us{
+    background-color: $main;
+    display: flex;
+    @media only screen and (max-width: 1024px){
+      display: flex;
+      flex-wrap: wrap;
+      flex-direction: column-reverse;
+      
+    }
+        .about_us_box{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: $main;
+            color: $white;
+            height: 662px;
+            @media only screen and (max-width: 1024px){
+               width: 100%;
+               display: flex;
+               align-items: center;
+               justify-content: start;
+              
+               
+            }
+        }
+         .about_us_text{
+            width: 50%;
+            @media only screen and (max-width: 1024px){
+               padding-left: 17px;
+               width: 343px;
+            }
+         }
+         .about_us_title{
+            font-size: 36px;
+            margin-bottom: 48px;
+         }
+         a{
+            display: inline-block;
+            color: $white;
+            text-decoration: none;
+            margin-top: 24px;
+         }
+
+         
+         
+}
+.about_us_image{
+   img{
+      @media only screen and (max-width: 1024px){
+         width: 100%;
+      }
+   }
+}
