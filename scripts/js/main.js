@@ -1,1 +1,1 @@
-document.querySelectorAll(".shopall a");
+(()=>{function e(e,t,l){const c=t.querySelectorAll("ul li.hiden");Array.from(c).slice(0,e).forEach((e=>{e.classList.remove("hiden")})),0==t.querySelectorAll("ul li.hiden").length&&l.parentElement.classList.add("hiden")}document.querySelectorAll(".shopall a").forEach((t=>{t.addEventListener("click",(t=>{t.preventDefault();const l=t.target,c=t.target.closest("section");let r=l.getAttribute("data-count");r=r||4,e(r,c,l)}))})),e(4,document.querySelector("section.our-products")),e(8,document.querySelector("section.product_list"))})();
